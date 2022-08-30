@@ -1,0 +1,19 @@
+{
+  "name": "tutorial-5-maximilianschwarzmuller-angular13",
+  "version": "1.0.0",
+  "description": "Angular 13 tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nktnlg/Tutorial-5-MaximilianSchwarzmuller-Angular13.git"
+  },
+  "author": "nktnlg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nktnlg/Tutorial-5-MaximilianSchwarzmuller-Angular13/issues"
+  },
+  "homepage": "https://github.com/nktnlg/Tutorial-5-MaximilianSchwarzmuller-Angular13#readme"
+}
