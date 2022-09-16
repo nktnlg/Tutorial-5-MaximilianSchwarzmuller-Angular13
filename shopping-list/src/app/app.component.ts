@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shopping-list';
+  link = 'recipe'
+
+  onNewLink(event: {link:string}){
+    this.link = event.link
+  }
+
 }

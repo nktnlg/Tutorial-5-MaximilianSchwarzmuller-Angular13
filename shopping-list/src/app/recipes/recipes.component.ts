@@ -8,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecipesComponent implements OnInit {
 
+  current:{name: string, description: string, imagePath: string}={name:'', description: '', imagePath: ''};
   constructor() { }
 
+  onNewCurrent(recipe:{name: string, description: string, imagePath: string}){
+    this.current=recipe;
+  };
+
   ngOnInit(): void {
-  }
+  };
 
 }
