@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class HeaderComponent implements OnInit {
+  @Output() newLink = new EventEmitter<{link: string}>;
+  link: string = "recipes";
+
+  onLink(link: string){
+    this.newLink.emit({
+      link
+    })
+  }
+
   collapsed = true;
 
   constructor() { }
